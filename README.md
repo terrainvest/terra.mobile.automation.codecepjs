@@ -12,7 +12,6 @@ Fluxos:
 - [Appium](http://appium.io/downloads.html)
 - [Appium Inspector](https://github.com/appium/appium-inspector/releases)
 - [Android Studio](https://developer.android.com/studio/index.html?hl=pt-br)
-- [X Code](https://apps.apple.com/br/app/xcode/id497799835?mt=12)
 - [Visual Studio Code](https://code.visualstudio.com/download)
 
 ## 🖥️ Dependências:
