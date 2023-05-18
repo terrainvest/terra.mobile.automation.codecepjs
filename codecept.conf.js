@@ -10,9 +10,7 @@ exports.config = {
   helpers: {
     Appium: {
       platform: 'Android',
-      path: '/wd/hub',
-      port: 4723,
-      app: '/Users/kalinemaciel/Documents/terra.mobile.automation.codecepjs/app',
+      app: '/Users/kalinemaciel/Documents/terra.mobile.automation.codeceptjs/app/TerraApp.apk',
       desiredcapabilities: {
         deviceName: 'qa_test',
         platformversion: '12.0',
@@ -43,6 +41,6 @@ exports.config = {
     }    
   },
 
-  name: 'terra.mobile.automation.codecepjs',
+  name: 'terra.mobile.automation.codeceptjs',
   tests: './steps/*_test.js'
 }

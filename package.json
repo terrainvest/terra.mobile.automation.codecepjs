@@ -1,7 +1,7 @@
 {
-  "name": "terra.mobile.automation.codecepjs",
+  "name": "terra.mobile.automation.codeceptjs",
   "version": "1.0.0",
-  "description": "<h1 align=\"center\">AUTOMAÇÃO DE TESTES MOBILE</h1> <h2 align=\"center\">Projeto de automação de testes com CodecepJS</h2>",
+  "description": "<h1 align=\"center\">AUTOMAÇÃO DE TESTES MOBILE</h1> <h2 align=\"center\">Projeto de automação de testes com codeceptjs</h2>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/terrainvest/terra.mobile.automation.codecepjs.git"
+    "url": "git+https://github.com/terrainvest/terra.mobile.automation.codeceptjs.git"
   },
   "author": "Kaline Maciel",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/terrainvest/terra.mobile.automation.codecepjs/issues"
+    "url": "https://github.com/terrainvest/terra.mobile.automation.codeceptjs/issues"
   },
-  "homepage": "https://github.com/terrainvest/terra.mobile.automation.codecepjs#readme",
+  "homepage": "https://github.com/terrainvest/terra.mobile.automation.codeceptjs#readme",
   "dependencies": {
     "codeceptjs": "^3.4.1",
     "mochawesome": "^7.1.3",
