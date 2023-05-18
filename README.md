@@ -1,5 +1,5 @@
 <h1 align="center">AUTOMAÇÃO DE TESTES MOBILE</h1>
-<h2 align="center">Projeto de automação de testes com CodecepJS</h2>
+<h2 align="center">Projeto de automação de testes com CodeceptJS</h2>
 
 ## 🔨 Projeto em desenvolvimento.
 Fluxos:
