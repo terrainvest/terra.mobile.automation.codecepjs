@@ -20,9 +20,12 @@ exports.config = {
       }
     }
   },
+  
   include: {
-    I: './steps_file.js'
+    I: './steps_file.js',
+    login_page: "./pages/login_page.js"
   },
+
   mocha: {},    
   bootstrap: async () => {    
     await server.start();  
