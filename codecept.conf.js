@@ -21,7 +21,8 @@ exports.config = {
   
   include: {
     I: './steps_file.js',
-    login_page: "./pages/login_page.js"
+    login: "./pages/login.js",
+    onboarding: "./pages/onboarding.js",
   },
 
   mocha: {},    
