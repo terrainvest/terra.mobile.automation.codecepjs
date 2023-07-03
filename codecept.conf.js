@@ -19,16 +19,9 @@ exports.config = {
 
       },
 
-      MSSQL: {
-        driver: "mssql",
-        host: "10.10.1.30",
-        user: "userbus",
-        password: "U333cH68CfuE8mFWDCgG",
-        database: "BUS",
-        options: {
-          encrypt: true, // se o seu servidor SQL Server estiver configurado para usar SSL
-        },
-      },
+      DbHelper: {
+        require: './node_modules/codeceptjs-dbhelper'
+      }
   },
 },
 
