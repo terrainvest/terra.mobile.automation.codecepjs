@@ -25,6 +25,12 @@ module.exports = {
     wrong_password: 'Usuário ou senha inválidos',
     wrong_new_user: 'Você ainda não possui cadastro',
     wrong_new_user_link: 'Não, fechar o app',
+    Registration_blocked:'Usuário bloqueado',
+    Registration_blocked_button:'DESBLOQUEAR AGORA',
+    Registration_analisys: 'Após o processamento dos dados',
+    Registration_pendency0: 'Documentação Pendente',
+    Registration_pendency1: 'Tenha em mãos os documentos abaixo para',
+    Registration_pendency2: 'finalizar o seu cadastro.'
   },
 
   doLogin(username, password) {
@@ -42,7 +48,7 @@ module.exports = {
   },
   validateWarnings() {
     I.waitForText(this.warnings.wrong_password, 20)
-    I.see(this.warnings.wrong_password, 20)
+    I.see(this.warnings.wrong_password)
   },
 
   validatenewuser() {
@@ -50,6 +56,23 @@ module.exports = {
     I.see(this.warnings.wrong_new_user)
     I.see(this.warnings.wrong_new_user_link)
   },
+
+  validateRegistrationblocked() {
+    I.waitForText(this.warnings.Registration_blocked, 20)
+    I.see(this.warnings.Registration_blocked)
+    I.see(this.warnings.Registration_blocked_button)
+  },
+
+  validateRegistrationanalisys() {
+    I.waitForText(this.warnings.Registration_analisys, 20)
+    I.see(this.warnings.Registration_analisys)
+  },
+  validateRegistrationpendency(){
+    I.waitForText(this.warnings.Registration_pendency0, 20)
+    I.see(this.warnings.Registration_pendency1)
+    I.see(this.warnings.Registration_pendency2)
+  },
+
 
   forgotpassword(username) {
     I.click(this.button.access)
