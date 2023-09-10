@@ -3,7 +3,7 @@
 
 ## 🔨 Projeto em desenvolvimento.
 Fluxos:
-- [ ] Login
+- [x] Login
 - [ ] Redefinição de senha
 
 ## ⚙️ Tecnologias utilizadas:
